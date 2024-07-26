@@ -20,7 +20,6 @@ public class TvShowMain {
 
             System.out.print("Enter the genre: ");
             String genre = scanner.nextLine();
-
             tvShows.add(new TvShow(name, numEpisodes, genre));
         }
 

@@ -1,6 +1,6 @@
 public class Animal {
-    private String name;
-    private boolean isDog;
+    private final String name;
+    private final boolean isDog;
 
     public Animal(String name, boolean isDog) {
         this.name = name;
@@ -10,7 +10,6 @@ public class Animal {
     public String getName() {
         return name;
     }
-
     public boolean getIsDog() {
         return isDog;
     }

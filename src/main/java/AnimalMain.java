@@ -6,7 +6,6 @@ public class AnimalMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<Animal> animals = new ArrayList<>();
-
         System.out.println("Animal Menu");
         System.out.println("Entering nothing will stop the loop");
 

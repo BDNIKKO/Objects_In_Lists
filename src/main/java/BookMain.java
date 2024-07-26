@@ -7,7 +7,6 @@ public class BookMain {
         Scanner scanner = new Scanner(System.in);
         List<Book> books = new ArrayList<>();
 
-
         while (true) {
             System.out.print("Enter the title of the book (or press Enter to stop): ");
             String title = scanner.nextLine();
@@ -17,11 +16,11 @@ public class BookMain {
 
             System.out.print("Enter the number of pages: ");
             int numPages = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             System.out.print("Enter the publication year: ");
             int pubYear = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             books.add(new Book(title, numPages, pubYear));
         }

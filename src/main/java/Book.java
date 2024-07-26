@@ -1,7 +1,7 @@
 public class Book {
-    private String title;
-    private int numPages;
-    private int pubYear;
+    private final String title;
+    private final int numPages;
+    private final int pubYear;
 
     public Book(String title, int numPages, int pubYear) {
         this.title = title;
@@ -12,11 +12,9 @@ public class Book {
     public String getTitle() {
         return title;
     }
-
     public int getNumPages() {
         return numPages;
     }
-
     public int getPubYear() {
         return pubYear;
     }

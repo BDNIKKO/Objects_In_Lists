@@ -1,7 +1,7 @@
 public class TvShow {
-    private String name;
-    private int numEpisodes;
-    private String genre;
+    private final String name;
+    private final int numEpisodes;
+    private final String genre;
 
     public TvShow(String name, int numEpisodes, String genre) {
         this.name = name;
@@ -12,11 +12,9 @@ public class TvShow {
     public String getName() {
         return name;
     }
-
     public int getNumEpisodes() {
         return numEpisodes;
     }
-
     public String getGenre() {
         return genre;
     }
