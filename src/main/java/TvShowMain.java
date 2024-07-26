@@ -16,7 +16,7 @@ public class TvShowMain {
 
             System.out.print("Enter the number of episodes: ");
             int numEpisodes = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             System.out.print("Enter the genre: ");
             String genre = scanner.nextLine();
